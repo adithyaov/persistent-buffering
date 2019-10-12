@@ -1,12 +1,12 @@
 # Read Me :-)
 
-*Nomenclature*
+**Nomenclature**
 
 Buffer :- Persisted memory (file system)
 
 Cache :- In memory (ram)
 
-*Producer Logic*
+**Producer Logic**
 
 1. Producer keeps producing items to their local cache.
 
@@ -14,7 +14,7 @@ Cache :- In memory (ram)
    serializes the cache and saves it to the file system (buffer) with the
    current timestamp.
 
-*Consumer Logic*
+**Consumer Logic**
 
 1. Consumer keeps consuming items from their local cache.
 
