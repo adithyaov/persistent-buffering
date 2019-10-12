@@ -16,3 +16,5 @@ Most basic thing
 Reader monad?
 
 PROBLEM: Consumer needs to wait till the entire file is written.
+
+NOTE: IGNORE THIS, THIS IS A SCRATCHPAD!

@@ -8,7 +8,6 @@ import qualified Data.ByteString as BS
 import Data.Time.Clock.POSIX (getPOSIXTime)
 import Control.Monad.Trans.Class (lift)
 
--- | Get a millisecond-precision unix timestamp as a 'String'
 getTime :: IO String
 getTime = show . round <$> getPOSIXTime
 
